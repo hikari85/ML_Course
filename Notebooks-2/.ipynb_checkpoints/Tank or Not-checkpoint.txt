@@ -1,0 +1,21 @@
+https://www.thehindu.com/news/cities/bangalore/clean-up-rolls-avoid-weekend-dates-for-polling-say-experts-as-bengaluru-records-poor-voter-turnout-again/article68114983.ece  voter turnout.  
+
+Mobile Firrst With over 4.3 billion smartphone users globally and dwindling attention spans—now averaging just 8 seconds—exceptional mobile UX design is no longer optional; it's essential.   
+
+That is not a tank! Or is it? 
+
+The US government hired some early ML researchers to work on a neural network that could detect whether an image contained an enemy tank or it was an image of an empty space, a forest, some trees, a landscape, or… something not tank. They took pictures of tanks and pictures of forests and savannas and places with no tanks and made a data set of, let's say, 100 tanks and 100 non-tanks.
+
+Then they split the data set into 50 pictures of each class for training and another 50 pictures of each class for testing, implemented their, at the moment, still very simple artificial neural network—probably a simple perceptron, the details don't really matter—and the results were spectacular. Not only was the neural network able to completely learn the training set, it also showed very high performance on the testing set.
+
+Very happy with the results, the researchers sent this model to their contractors just to receive a few weeks later, their reaction letter, telling them that in all the cases when someone was testing this model in real life, with real tanks, and with real no-tanks, it didn't perform any better than a random guessing.
+
+The statistics were sound, the mathematics was sound, the code was sound, but there was one problem in the data that they couldn't solve. Two different teams took the pictures of the tank and the non-tank. The people who took the pictures of the tank did it on a cloudy day, while the people who were tasked to take pictures of non-tanks did it on a slightly more sunny day.
+
+In these pictures, you could accurately classify which of the two sets they belonged to by simply looking at the average brightness of the pixels. The brighter pictures were more often correlated with non-tanks than the darker pictures. So the neural network had learned exactly what the researchers asked it to do, but not what they wanted it to do. It learned to differentiate pictures from two different sets, but it didn't learn it by looking at the thing the researchers wanted. The network learned to look at the average brightness of the pixels and perfectly captured the most salient difference between the two sets of photos. The brighter pictures belong to one set, and the darker pictures belong to the other set. Problem solved. Now give me the money.
+
+----
+
+Hand a data person a data file to explore and analyze, and you'll find that the world generally splits into two groups: one group will attempt to view the contents of the file directly by popping it into a text editor or spreadsheet, and another group will open up their data environment of choice, R, Jupyter notebook, etc., and do a lot of their exploring using summary and visualization tools first before pulling samples. 
+
+https://www.jetbrains.com/lp/devecosystem-2023/data-science/   Survey on data science professional spaace   
